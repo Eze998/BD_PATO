@@ -1,0 +1,5 @@
+create database holadb;
+ USE holadb;
+ create table estudiante(id int primary key,nombre varchar(100),fechadenacimiento date);
+ select * from estudiante;
+ insert into estudiante(id,nombre,fechadenacimiento) values(1,'valentin','2006-11-10');
